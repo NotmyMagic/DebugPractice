@@ -3,15 +3,14 @@ let input = document.querySelector("#name");
 let display = document.querySelector(".displaymycode");
 
 // This code should be working
-  input.addEventListener("input", clearName() =>
-  const userName = input.value;
-  display.textContent = userName;
-);
-
+input.addEventListener("input", function () {
+  const name = input.value;
+  display.textContent = name;
+});
 
 // missing function?
-function clearName(){
-
+function simpleMath(parameter1, parameter2) {
+  return parameter1 + parameter2;
 }
 
 // you should see 5 in the output of your console
